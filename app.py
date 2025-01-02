@@ -31,7 +31,7 @@ def findRecipe():
             error_message = 'Sorry there was an error fetching recipes, please try again.'
             return render_template('find.html', error_message = error_message)
     
-    return render_template("find.html")    # if find recipes page is throwing you back to home page, remove this line
+    return render_template("find.html")    
 
 
 @app.route('/recipe/<int:recipe_id>')

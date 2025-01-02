@@ -1,0 +1,42 @@
+.container3{
+    background: linear-gradient(#4C585B, #7E99A3);
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.recipe-detailed-card{
+    width: 80%;
+    min-height: 600px;
+    /* background-color: red;    */
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding-bottom: 200px;
+}
+
+.recipe-detailed-card h1{
+    font-size: 40px;
+    font-family: "Kanit";
+}
+
+.recipe-detailed-card p, li{
+    font-size: 20px;
+    font-family: "Unbounded";
+}
+
+.recipe-detailed-card ul{
+    list-style-type: none;
+}
+
+.recipe-detailed-card h2{
+    font-size: 30px;
+}
+
+.recipe-detailed-card a{
+    font-size: 20px;
+    text-decoration: none;
+}

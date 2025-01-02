@@ -1,0 +1,41 @@
+{% extends "header.html"%}
+
+{% block body %}
+<div class="container">
+    <div class="black-curtain">
+
+
+        <nav class="navbar">
+            <a href="/" class="brand-logo">
+                <div class="brand-logo-text">
+                    Cooked
+                </div>
+            </a>
+
+            <div class="navbar-items">
+                <a href="/" class="navs">Home</a>
+                <a href="/find" class="navs">Find a recipe</a>
+                <a href="/  " class="navs">Contact Us</a>
+            </div>
+
+            <div class="navbar-button"></div>
+        </nav>
+
+        <div class="hero-section">
+            <div class="text-welcome">"Unleash Your Inner Chef"</div>
+            <h1 class="main-headline">Discover Delicious Recipes <br> for Every Occasion </h1>
+            <h4 class="main-headline-subtext">
+                Explore easy recipes, cooking tips, and meal ideas for every occasion <br> quick dinners or
+                show-stopping feasts.
+                <br>
+                <br>
+                Start Cooking Today!
+            </h4>
+
+            <a href="/find">
+                <button class="get-started"> Get Started &rarr; </button>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock body %}
